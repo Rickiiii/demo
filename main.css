@@ -1,0 +1,245 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    display: block;
+}
+
+#yiwei-index-banner-header{
+    width:1200px;
+    height: 50px;
+    margin:0 auto;
+    padding: 0;
+}
+
+#yiwei-index-banner-header .yiwei-index-banner-header-logo{
+    
+    float: left;
+    margin-top:22px;
+}
+
+#yiwei-index-banner-header-sign{
+    float: right;
+    width: 170px;
+    height: 50px;
+}
+
+#yiwei-index-banner-header-sign a{
+    float:right;
+    border: 1px solid #3f93f5;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+#yiwei-index-banner-header-sign .sign-in {
+       
+    color: #3f93f5;
+    float: left;
+}
+
+#yiwei-index-banner-header-sign .sign-log{  
+    color: #fff;
+    background: #3f93f5;
+}
+
+#yiwei-index-banner-content{
+    width:1200px;
+    height: 550px;
+    margin:0 auto;
+    padding: 0;
+}
+
+#yiwei-index-banner-content-text{
+    width:480px;
+    height: 550px;
+    position: relative;
+    float: left;
+}
+
+#yiwei-index-banner-content-text .title1{
+    font-family: PingFangSC-Regular;
+    font-size: 48px;
+    color: #FFFFFF;
+    margin: 0;
+    padding-top:174px;
+    animation: slide1;
+    animation-duration: 1.5s;
+    -webkit-animation: slide1 1.5s;
+}
+@keyframes slide1{
+    0%{
+        opacity: 0;
+        margin-top: 200px;
+    }
+    40%{
+        opacity: 0;
+        margin-top: 200px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#yiwei-index-banner-content-text .title2{
+    margin: 0;
+    margin-top:14px;
+    font-family: PingFangSC-Light;
+    font-size: 30px;
+    color: #FFFFFF;
+    line-height: 28px;
+    animation: slide2;
+    animation-duration: 1.5s;
+    -webkit-animation: slide2 1.5s;
+}
+
+@keyframes slide2{
+    0%{
+        opacity: 0;
+        margin-top: 200px;
+    }
+    40%{
+        opacity: 0;
+        margin-top: 200px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#yiwei-index-banner-content-text .title3{
+    margin: 0;
+    margin-top: 41px;
+    color:#FFFFFF;
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    width: 140px;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    font-size: 18px;
+    animation: slide3;
+    animation-duration: 2s;
+    -webkit-animation: slide3 2s;
+}
+
+@keyframes slide3{
+    0%{
+        opacity: 0;
+        margin-top: 200px;
+    }
+    40%{
+        opacity: 0;
+        margin-top: 200px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#yiwei-index-banner-content-img{
+    margin: 0;
+    top: 93px;
+    width: 647px;
+    height: 429px;
+    float: right;
+    position: relative;
+}
+
+#yiwei-index-banner-content-img .img1{
+    position: absolute;
+    animation: slide4;
+    animation-duration: 1.5s;
+    -webkit-animation: slide4 1.5s;
+}
+
+@keyframes slide4{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#yiwei-index-banner-content-img .img2{
+    position: absolute;
+    float: left;
+    top:95px;
+    left:-51px;
+    animation: slide5;
+    animation-duration: 2s;
+    -webkit-animation: slide5 2s;
+}
+
+@keyframes slide5{
+    0%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0;
+        padding-top:50px;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#yiwei-index-list .title{
+    margin: 0;
+    padding-top: 60px;
+    text-align: center;
+    font-family: PingFangSC-Light;
+    font-size: 34px;
+    color: #333333;
+    line-height: 34px;
+}
+
+#yiwei-index-list{
+    width:1128px;
+    margin: 0 auto;
+}
+
+#item-list{
+    display: block;
+}
+
+#item-list ul li{
+    width: 33.3%;
+    margin: 30px 0;
+    list-style: none;
+    float: left;
+}
+
+#item-list .item-left{
+    float: left;
+    margin-left: 80px;
+    margin-top: 40px; 
+}
+
+#item-list .item-right{
+    float: left;
+    margin: 0;
+    margin-left:20px; 
+}
+
+#item-list .item-right p{
+    font-family: PingFangSC-Light;
+    font-size: 14px;
+    color: #999999;
+    line-height: 14px;
+}
+
+#item-list .item-right .title1{
+    font-family: PingFangSC-Regular;
+    font-size: 18px;
+    color: #333333;
+    line-height: 18px;
+}
